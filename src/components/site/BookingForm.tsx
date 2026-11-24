@@ -87,6 +87,7 @@ function RepairChoice({ repairs }: { repairs: BookingFormProps['repairs'] }) {
       <legend className="mb-1 font-semibold">
         Repairs <span className="font-normal text-ink-soft">(optional)</span>
       </legend>
+      <p>You can select more than one repair.</p>
       {repairs.map((repair) => {
         // To show each repair's price too, replace the line under this comment with this line:
         //   const label = repair.name + ', ' + formatPrice(repair.price)
